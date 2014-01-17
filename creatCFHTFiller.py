@@ -1,3 +1,24 @@
+'''
+AUTHOR
+    Alexa Villaume, UCSC
+
+PURPOSE
+    When making a DIEMOS mask we can't always fill up the mask with
+    high priority candidates. So this is for when we loosen the color
+    cuts. It cuts out of the high priority candiates from the loose
+    catalog.
+
+INPUT PARAMETERS
+    The loose color cut catalog
+    The strict color cut catalog
+
+FILES CREATED
+    A catalog of the remainder
+
+NOTES
+
+'''
+
 
 loose = open("NGC4459_CFHT_loose_dsim_in.txt", 'r')
 
